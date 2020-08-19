@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 
-require_relative "../lib/covid_19"
+require "bundler/setup"
+require "covid_19"
+
 
 Covid19::CLI.new.call
 
