@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require "./lib/covid_19"
+require_relative "../lib/covid_19"
 
 Covid19::CLI.new.call
 
